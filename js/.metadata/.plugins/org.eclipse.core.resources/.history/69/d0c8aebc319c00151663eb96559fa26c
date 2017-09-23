@@ -1,0 +1,22 @@
+import java.lang.*;
+import net.sf.json.JSONObject;
+
+public class tsushin {
+	int a;
+	int b;
+	String c;
+	
+	tsushin(){
+		a = 1; b = 2; c = "ABC";
+	}
+	
+	public static void main(String args[]){
+		tsushin sample = new tsushin();
+		JSONObject obj = new JSONObject();
+		obj.put("id", "0000001");
+		obj.put("name", "Thom");
+		System.out.println(obj); //{"id":"0000001","name":"Thom"}
+		
+	}
+	
+}

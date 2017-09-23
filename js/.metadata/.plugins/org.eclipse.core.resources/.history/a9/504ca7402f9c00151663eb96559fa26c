@@ -1,0 +1,24 @@
+import java.lang.*;
+
+public class tsushin {
+	int a;
+	int b;
+	String c;
+	
+	tsushin(){
+		a = 1; b = 2; c = "ABC";
+	}
+	
+	public static void main(String args[]){
+		tsushin sample = new tsushin();
+		
+	}
+	
+	public void sample(){
+		 
+		JSONObject obj = new JSONObject;
+		obj.put("sample1","a");
+		obj.put("sample2","b");
+		webView.loadUrl("javascript:jsonsample("+ obj +")");
+	}
+}
